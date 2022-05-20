@@ -1,23 +1,43 @@
 const thumbnail =document.querySelector(".card-thumbnail");
-const modal = document.querySelector(".card-modal");
+const modal = document.querySelector(".modal");
 
-thumbnail.addEventListener("click",  () =>{
+// thumbnail.addEventListener("click",  () =>{
 
-    if(modal.style.display === "flex"){
+//     if(modal.style.display === "flex"){
 
-        modal.style.display = "none"
-    }
-    else {
-        modal.style.display = "flex"
+//         modal.style.display = "none"
+//     }
+//     else {
+//         modal.style.display = "flex"
 
-        // modal.innerHTML = 
+//         // modal.innerHTML = 
 
-    }
+//     }
 
 
  
-    console.log(event)
-})
+//     console.log(event)
+// })
+
+// thumbnail.addEventListener("click", () => {
+//     modal.showModal();
+//     modal.style.cssText = `
+//     display: flex;
+//     `;
+//     // modalImagesContainer.innerHTML += 
+//     // `
+//     // <img class="modal-image" src="assets/csm1.jpg" />
+//     // <img class="modal-image" src="assets/csm2.jpg" />
+//     // <img class="modal-image" src="assets/csm3.jpg" />
+//     // `; 
+// });
+
+function openModal() {
+    modal.showModal();
+    modal.style.cssText = `
+    display: flex;
+    `;
+}
 
 function closeModal(){
     modal.close();

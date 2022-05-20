@@ -214,17 +214,18 @@ a {
   max-width: 10vw;
   min-width: 150px;
 }
-.card-modal{
-  /* position: fixed; */
+.modal{
+  position: fixed;
   display: none;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vh;
-  width: 60vw
+  height: 60vh;*/
+  width: 80vw; 
+  margin: auto;
 }
-.card-modal::backdrop {
-  background: linear-gradient(45deg, #0a254d, #0d021b);
+.modal::backdrop {
+  background: linear-gradient(45deg, #024959,#c06e26);
   opacity: 0.9;
 }
 /* .modal-images-container {
@@ -240,19 +241,19 @@ a {
 }*/
 .modal-image-container{
   position: relative;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 100%;
-  width: 100%;
-  margin-top: 1rem;
-  justify-items: center
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center
 }
 .modal-image {
   object-fit: cover;
-  height: 60vh;
-  width: 100%;
-  aspect-ratio: 1/1;
+  /* height: 60vh;*/
+  width: 80%; 
+  /* aspect-ratio: 2/1; */
   grid-row: 2;
+  margin: 1rem;
 
 } */
 .card-image-container {
