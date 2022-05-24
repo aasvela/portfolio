@@ -3,21 +3,18 @@ portfolio
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This portfolio page contains the 3 main projects for my first semester at Noroff Front-end development.
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- [Semester Project](https://github.com/aasvela/semester-project)
+- [Cross Course Project](https://github.com/aasvela/rainydays_arne.git)
+- [Project Exam](https://github.com/Noroff-FEU-Assignments/project-exam-1-aasvela.git)
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+The page is built with the following
 
 - HTML
 - CSS
@@ -26,12 +23,10 @@ You can list a the tech stack that you've used over here
 
 ### Installing
 
-The reo
-
-1. Clone the repo:
+Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+[https://github.com/aasvela/portfolio.git]
 ```
 
 
