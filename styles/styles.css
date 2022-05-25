@@ -86,7 +86,7 @@ header {
   align-items: center;
 }
 main {
-  /* max-width: 60vw; */
+  max-width: 60vw;
 }
 
 h1 {
@@ -358,4 +358,27 @@ a {
   /* padding: 1rem; */
   border: solid 1px var(--clr-subtile);
   
+}
+@media only screen and (max-width: 800px) {
+  main{
+    max-width: 80vw;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto; */
+    width: 60vw;
+    min-width: 300px;
+    min-height: 25vh;
+    padding-top: 2rem;
+    margin: 2rem;
+    align-items: center;
+    /* justify-items: center ; */
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #50ADAD;
+    position: relative;
+  }
 }
