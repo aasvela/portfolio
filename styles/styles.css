@@ -165,7 +165,8 @@ a {
   /* display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr auto; */
-  min-width: 40vw;
+  width: 40vw;
+  min-width: 300px;
   min-height: 25vh;
   padding-top: 2rem;
   margin: 2rem;
@@ -217,7 +218,7 @@ a {
   transition: 500ms;
 
 }
-.science-card:hover {
+/* .science-card:hover {
   width: fit-content;
   margin: 1rem;
   margin-top: 0;
@@ -225,13 +226,13 @@ a {
   border-radius: 0%;
   transition: 500ms;
   border: solid 1px var(--clr-subtile);
-}
+} */
 .rainy-card {
   border-radius: 50%;
   transition: 500ms;
 
 }
-.rainy-card:hover {
+/* .rainy-card:hover {
   width: fit-content;
   margin: 1rem;
   margin-top: 0;
@@ -239,32 +240,51 @@ a {
   border-radius: 0%;
   transition: 500ms;
   border: solid 1px var(--clr-subtile);
-}
+} */
 .bonsai-card {
   border-radius: 50%;
   transition: 500ms;
 
 }
 .bonsai-card:hover {
-  width: fit-content;
+  /* width: fit-content;
   margin: 1rem;
   margin-top: 0;
   background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
   border-radius: 0%;
   transition: 500ms;
-  border: solid 1px var(--clr-subtile);
+  border: solid 1px var(--clr-subtile); */
 }
 .thumbnail{
-  max-width: 15vw;
+  width: 30vw;
+  max-width: 350px;
   min-width: 150px;
   overflow: hidden;
   border-radius: 50%;
   transition: 500ms;
-  border: solid 1px var(--clr-subtile);
+  /* border: solid 1px var(--clr-subtile); */
+  padding: 2rem;
 }
-.thumbnail:hover{
+.thumbnail-science{
+}
+.thumbnail-science:hover{
   border-radius: 0%;
   transition: 500ms;
+  background: linear-gradient(-45deg, #EFF9FB 15%, #9FCFE6 100%);
+}
+.thumbnail-rainy{
+}
+.thumbnail-rainy:hover{
+  border-radius: 0%;
+  transition: 500ms;
+  background: linear-gradient(-45deg, #708090 15%, #0b3a40 100%);
+}
+.thumbnail-bonsai{
+}
+.thumbnail-bonsai:hover{
+  border-radius: 0%;
+  transition: 500ms;
+  background: linear-gradient(45deg, #0a254d 15%, #94a194 100%);
 }
 
 .science-modal{
@@ -327,14 +347,14 @@ a {
   margin: 1rem;
   margin-bottom: 2rem;
   padding: .5rem;
-  transition: 500ms;
+  transition: 300ms;
   border-radius: 50%;
 }
 .links:hover {
   background-color: #024959;
   background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
   border-radius: 0%;
-  transition: 500ms;
+  transition: all 300ms ease-out;
   /* padding: 1rem; */
   border: solid 1px var(--clr-subtile);
   
