@@ -47,9 +47,9 @@
       </div>
       <div class="container">
         <div class="card">
+          <h3 class="card-title">Community Science Museum</h3>
           <div class="logo-container">
             <img class="logo" src="assets/science_logoi.png" />
-            <h3 class="card-title">Community Science Museum</h3>
           </div>
           <div class="card-text">
             <p>
@@ -57,11 +57,11 @@
               <br />
               The layout is off blablabla
             </p>
-            <div class="card-thumbnail" onclick="openModal()">
-              <img src="assets/csm1.jpg" />
-            </div>
           </div>
-          <dialog class="modal">
+          <div class="science-card card-thumbnail" onclick="openModalScience()">
+            <img class="thumbnail" src="assets/csm1.jpg" />
+          </div>
+          <dialog class="science-modal modal">
             <div class="modal-image-container">
               <img class="modal-image" src="assets/csm1.jpg" />
               <img class="modal-image" src="assets/csm2.jpg" />
@@ -73,7 +73,7 @@
             <div class="links">
               <a
                 class="github"
-                href="https://github.com/aasvela"
+                href="https://github.com/aasvela/semester-project"
                 title="github"
                 target="_blank"
               >
@@ -87,11 +87,12 @@
               >
             </div>
           </div>
+          <div class="cover"></div>
         </div>
         <div class="card">
+          <h3 class="card-title">Rainydays</h3>
           <div class="logo-container">
             <img class="logo" src="assets/RainyDays_Logo.png" />
-            <h3 class="card-title">Rainydays</h3>
           </div>
           <div class="card-text">
             <p>
@@ -99,15 +100,15 @@
               <br />
               The layout is off blablabla
             </p>
-            <div class="card-thumbnail" onclick="openModal()">
-              <img src="assets/csm1.jpg" />
-            </div>
           </div>
-          <dialog class="modal">
+          <div class="rainy-card card-thumbnail" onclick="openModalRainy()">
+            <img class="thumbnail" src="assets/rd1.jpg" />
+          </div>
+          <dialog class="rainy-modal modal">
             <div class="modal-image-container">
-              <img class="modal-image" src="assets/csm1.jpg" />
-              <img class="modal-image" src="assets/csm2.jpg" />
-              <img class="modal-image" src="assets/csm3.jpg" />
+              <img class="modal-image" src="assets/rd1.jpg" />
+              <img class="modal-image" src="assets/rd2.jpg" />
+              <img class="modal-image" src="assets/rd3.jpg" />
             </div>
           </dialog>
 
@@ -115,48 +116,7 @@
             <div class="links">
               <a
                 class="github"
-                href="https://github.com/aasvela"
-                title="github"
-                target="_blank"
-              >
-                <i class="fa-brands fa-github"></i>
-                <p class="subtle-txt">Github</p></a
-              >
-            </div>
-            <div class="links">
-              <a href="https://silly-mcnulty-097e49.netlify.app/"
-                ><p>Netlify</p></a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="logo-container">
-            <img class="logo" src="assets/logo.png" />
-            <h3 class="card-title">Bonsai Bonansa</h3>
-          </div>
-          <div class="card-text">
-            <p>
-              This was the first big project for me. And it tells.
-              <br />
-              The layout is off blablabla
-            </p>
-            <div class="card-thumbnail" onclick="openModal()">
-              <img src="assets/csm1.jpg" />
-            </div>
-          </div>
-          <dialog class="modal">
-            <div class="modal-image-container">
-              <img class="modal-image" src="assets/csm1.jpg" />
-              <img class="modal-image" src="assets/csm2.jpg" />
-              <img class="modal-image" src="assets/csm3.jpg" />
-            </div>
-          </dialog>
-          <div class="links-container">
-            <div class="links">
-              <a
-                class="github"
-                href="https://github.com/aasvela"
+                href="https://github.com/aasvela/rainydays_arne"
                 title="github"
                 target="_blank"
               >
@@ -171,18 +131,59 @@
             </div>
           </div>
         </div>
+        <div class="card">
+          <h3 class="card-title">Bonsai Bonansa</h3>
+          <div class="logo-container">
+            <img class="logo" src="assets/logo.png" />
+          </div>
+          <div class="card-text">
+            <p>
+              This was the first big project for me. And it tells.
+              <br />
+              The layout is off blablabla
+            </p>
+          </div>
+          <div class="bonsai-card card-thumbnail" onclick="openModalBonsai()">
+            <img class="thumbnail" src="assets/bb1.jpg" />
+          </div>
+          <dialog class="bonsai-modal modal">
+            <div class="modal-image-container">
+              <img class="modal-image" src="assets/bb1.jpg" />
+              <img class="modal-image" src="assets/bb2.jpg" />
+              <img class="modal-image" src="assets/bb3.jpg" />
+            </div>
+          </dialog>
+          <div class="links-container">
+            <div class="links">
+              <a
+                class="github"
+                href="https://github.com/Noroff-FEU-Assignments/project-exam-1-aasvela"
+                title="github"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                <p class="subtle-txt">Github</p></a
+              >
+            </div>
+            <div class="links">
+              <a href="https://silly-mcnulty-097e49.netlify.app/"
+                ><p>Netlify</p></a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
       <div class="contact-container">
         <div class="personal-info">
           <a
-            class="a-links"
-            href="tel:+4798439205"
+            class="linkedin"
+            href="https://www.hvarf.no/arne_cv"
+            title="linkedin"
             target="_blank"
-            title="phone"
-            ><i class="fa-solid fa-square-phone"></i>
-            <p class="subtle-txt">+47 98 43 92 05</p>
+            ><i class="fa-solid fa-file"></i>
+            <p class="subtle-txt">Resume</p>
           </a>
         </div>
         <div class="personal-info">
@@ -205,17 +206,6 @@
             <i class="fab fa-linkedin"></i>
             <p class="subtle-txt">linkedin.com/in/arnesvela/</p>
           </a>
-        </div>
-        <div class="personal-info">
-          <a
-            class="linkedin"
-            href="https://www.google.com/maps/place/Nittedalsveien+376,+1480+Slattum/@60.01798,10.9073477,17z/data=!3m1!4b1!4m5!3m4!1s0x464170a23a76009b:0x55a15c184358283b!8m2!3d60.0179773!4d10.9095364"
-            title="linkedin"
-            target="_blank"
-          >
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="subtle-txt">Nittedalsv. 376, 1480 Slattum</p></a
-          >
         </div>
         <div class="personal-info">
           <a
