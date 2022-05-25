@@ -167,11 +167,11 @@ a {
   grid-template-rows: 1fr 1fr auto; */
   min-width: 40vw;
   min-height: 25vh;
-  /* padding: 2rem; */
+  padding-top: 2rem;
   margin: 2rem;
   align-items: center;
   /* justify-items: center ; */
-  border-width: 0px 1px 1px 0px;
+  border-width: 1px 1px 1px 1px;
   border-style: solid;
   border-color: #50ADAD;
   position: relative;
@@ -204,74 +204,92 @@ a {
   grid-column: 2;
   grid-row: 2;
   justify-content: center;
+  margin: 2rem;
 }
 .card-thumbnail {
   width: fit-content;
   margin: 1rem;
   margin-top: 0;
-  padding: 2rem;
+  padding: 1rem;
 }
-.card-thumbnail:hover {
+.science-card {
+  border-radius: 50%;
+  transition: 500ms;
+
+}
+.science-card:hover {
   width: fit-content;
   margin: 1rem;
   margin-top: 0;
-  background-color: #024959;
-  background: linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
+  background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
+  border-radius: 0%;
+  transition: 500ms;
+  border: solid 1px var(--clr-subtile);
+}
+.rainy-card {
   border-radius: 50%;
   transition: 500ms;
-}
 
+}
+.rainy-card:hover {
+  width: fit-content;
+  margin: 1rem;
+  margin-top: 0;
+  background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
+  border-radius: 0%;
+  transition: 500ms;
+  border: solid 1px var(--clr-subtile);
+}
+.bonsai-card {
+  border-radius: 50%;
+  transition: 500ms;
+
+}
+.bonsai-card:hover {
+  width: fit-content;
+  margin: 1rem;
+  margin-top: 0;
+  background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
+  border-radius: 0%;
+  transition: 500ms;
+  border: solid 1px var(--clr-subtile);
+}
 .thumbnail{
   max-width: 15vw;
   min-width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: 500ms;
+  border: solid 1px var(--clr-subtile);
+}
+.thumbnail:hover{
+  border-radius: 0%;
+  transition: 500ms;
 }
 
 .science-modal{
   position: fixed;
   display: none;
-  /* flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;*/
   width: 80vw; 
   margin: auto;
 }
 .rainy-modal{
   position: fixed;
   display: none;
-  /* flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;*/
   width: 80vw; 
   margin: auto;
 }
 .bonsai-modal{
   position: fixed;
   display: none;
-  /* flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;*/
   width: 80vw; 
   margin: auto;
 }
 
 .modal::backdrop {
-  background: linear-gradient(45deg, #024959,#c06e26);
+  background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
   opacity: 0.9;
 }
-/* .modal-images-container {
-  display: flex;
-  flex-direction: row;
-  grid-row: 1 / 4;
-  grid-column: 2;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  height: 100%;
-
-}*/
 .modal-image-container{
   position: relative;
   display: flex;
@@ -282,9 +300,7 @@ a {
 }
 .modal-image {
   object-fit: cover;
-  /* height: 60vh;*/
   width: 80%; 
-  /* aspect-ratio: 2/1; */
   grid-row: 2;
   margin: 1rem;
 
@@ -309,13 +325,17 @@ a {
 }
 .links {
   margin: 1rem;
-  padding: 1rem;
+  margin-bottom: 2rem;
+  padding: .5rem;
+  transition: 500ms;
+  border-radius: 50%;
 }
 .links:hover {
   background-color: #024959;
-  transition: 300ms;
-  background: linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
-  border-radius: 50%;
+  background: linear-gradient(-45deg, var(--clr-cta) 15%, var(--clr-title) 100%);
+  border-radius: 0%;
   transition: 500ms;
+  /* padding: 1rem; */
+  border: solid 1px var(--clr-subtile);
   
 }
